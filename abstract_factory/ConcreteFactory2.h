@@ -12,12 +12,12 @@ namespace creational
         class ConcreteFactory2 : public AbstractFactory
         {
             public:
-                std::unique_ptr<ProductA> ConcreteFactory2::createProductA() override
+                std::unique_ptr<ProductA> createProductA() override
                 {
                     return std::make_unique<ConcreteProductA2>();
                 }
 
-                std::unique_ptr<ProductB> ConcreteFactory2::createProductB() override
+                std::unique_ptr<ProductB> createProductB() override
                 {
                     return std::make_unique<ConcreteProductB2>();
                 }
