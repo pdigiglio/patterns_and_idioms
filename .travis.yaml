@@ -2,6 +2,12 @@ dist: xenial
 language: cpp
 compiler: clang
 
+# safelist
+branches:
+    only:
+        - master
+        - ci
+
 before_script:
     - mkdir build
     - cd build
