@@ -14,6 +14,7 @@ namespace creational
             public:
                 virtual std::unique_ptr<ProductA> createProductA() = 0;
                 virtual std::unique_ptr<ProductB> createProductB() = 0;
+                virtual ~AbstractFactory() = default;
         };
 
         void exec();

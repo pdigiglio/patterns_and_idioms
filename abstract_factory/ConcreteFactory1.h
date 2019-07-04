@@ -21,6 +21,8 @@ namespace creational
                 {
                     return std::make_unique<ConcreteProductB1>();
                 }
+
+                ~ConcreteFactory1() override = default;
         };
     }
 }

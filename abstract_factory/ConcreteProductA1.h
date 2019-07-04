@@ -13,6 +13,8 @@ namespace creational
                 {
                     return "ConcreteProductA1";
                 }
+
+                ~ConcreteProductA1() override = default;
         };
     }
 }

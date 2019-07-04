@@ -10,6 +10,7 @@ namespace creational
         {
             public:
                 virtual std::string whoami() = 0;
+                virtual ~ProductA() = default;
         };
     }
 }
