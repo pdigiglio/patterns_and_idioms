@@ -6,7 +6,6 @@ compiler: clang
 branches:
     only:
         - master
-        - ci
 
 before_script:
     - mkdir build
