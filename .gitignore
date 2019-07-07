@@ -1,6 +1,9 @@
 # Ignore cmake build
 build*
 
+# Include builder-pattern sources
+!builder
+
 # Prerequisites
 *.d
 
