@@ -29,6 +29,8 @@ endif()
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror -Wall -Wextra")
 
 add_subdirectory(abstract_factory)
+add_subdirectory(maze_game)
 
 add_executable(main main.cpp)
 target_link_libraries(main abstract_factory)
+target_link_libraries(main maze_game)
